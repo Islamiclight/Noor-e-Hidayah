@@ -6,41 +6,64 @@
   <title>Noor-e-Hidayah</title>
   <style>
     body {
-      font-family: Arial;
+      font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       color: #333;
       margin: 0;
       padding: 0;
     }
+
     header {
       background-color: #009688;
       color: white;
-      padding: 20px;
+      padding: 30px 20px;
       text-align: center;
     }
+
     nav {
       background: #00796b;
-      padding: 10px;
+      padding: 12px;
       text-align: center;
     }
+
     nav a {
       color: white;
       text-decoration: none;
       margin: 0 15px;
+      font-weight: bold;
     }
-    section {
+
+    .hero {
+      background: #e0f2f1;
+      text-align: center;
+      padding: 40px 20px;
+      margin: 20px;
+      border-radius: 10px;
+    }
+
+    .hero h2 {
+      margin-top: 0;
+    }
+
+    .card {
+      background: white;
+      margin: 20px;
       padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
+
     footer {
       background: #004d40;
       color: white;
       text-align: center;
       padding: 15px;
-      margin-top: 20px;
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Noor-e-Hidayah</h1>
     <p>আলো ছড়াও কুরআনের</p>
@@ -54,13 +77,24 @@
     <a href="#">যোগাযোগ</a>
   </nav>
 
-  <section>
+  <div class="hero">
     <h2>স্বাগতম!</h2>
-    <p>এই ওয়েবসাইট ইসলামী জ্ঞান ছড়িয়ে দেওয়ার উদ্দেশ্যে তৈরি। প্রতিদিন কুরআন ও হাদীস থেকে উপকারি কিছু পোস্ট করা হবে ইনশাআল্লাহ।</p>
-  </section>
+    <p>ইসলামিক জ্ঞান ছড়িয়ে দিন সহজ ও সুন্দর উপায়ে। প্রতিদিনের পোস্ট পেতে থাকুন ইনশাআল্লাহ।</p>
+  </div>
+
+  <div class="card">
+    <h3>🌙 আজকের আয়াত</h3>
+    <p>"নিশ্চয়ই আল্লাহ ধৈর্যশীলদের সাথে আছেন।" (সূরা বাকারা: ১৫৩)</p>
+  </div>
+
+  <div class="card">
+    <h3>📜 আজকের হাদীস</h3>
+    <p>রাসূল (সা.) বলেন: "তোমরা এমন ব্যক্তির মত হও যাকে মৃত্যুর স্মরণ সবসময় থাকে।" (তিরমিযী)</p>
+  </div>
 
   <footer>
-    <p>&copy; 2025 Noor-e-Hidayah</p>
+    &copy; 2025 Noor-e-Hidayah | Developed by Ayush
   </footer>
+
 </body>
 </html>
